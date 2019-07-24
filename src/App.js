@@ -1,14 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import NavBar from './components/NavBar/NavBar';
-import WebVid from './components/WebVid/WebVid';
+import Header from './components/Header/Header';
+
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <WebVid />
+      <Header />
     </div>
   );
 }
