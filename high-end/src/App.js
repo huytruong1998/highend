@@ -7,8 +7,9 @@ import WebVid from './components/WebVid/WebVid';
 function App() {
   return (
     <div className="App">
-      <NavBar />
       <WebVid />
+      <NavBar />
+
     </div>
   );
 }
