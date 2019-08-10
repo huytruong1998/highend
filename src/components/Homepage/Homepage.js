@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import logo from "./../img/logo.png";
 import logotwo from "./../img/logotwo.png";
 import './Homepage.css';
 import WebVid from './WebVid/WebVid';
 import Service from '../Service/Service';
-import Ourwork from '../Ourwork/Ourwork'
+import Ourwork from '../Ourwork/Ourwork';
+import Teamswiper from '../Teamswiper/Teamswiper';
+
 function Homepage() {
     const [openHam, setHam] = useState(false)
     const [addSticky, setSticky] = useState(false)
@@ -94,6 +96,7 @@ function Homepage() {
             <br />
             <br />
             <Ourwork />
+            <Teamswiper />
         </div>
 
     )
