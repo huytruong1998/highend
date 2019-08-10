@@ -151,8 +151,10 @@ a:hover {
 }
 
 .nav2 ul li:hover {
-    background: #ff1637;
+    background-color: #ff1637;
+
 }
+
 
 .nav2 ul li:hover a,
 .nav2 ul li:hover a span {

@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import video1 from "../../video/PexelsVideos1510092.mp4";
+import React from 'react';
+import video1 from "../../video/Pexels Videos 1429889.mp4";
 import video2 from "../../video/PexelsVideos1550080.mp4";
 import video3 from "../../video/PexelsVideos1877846.mp4";
 import './WebVid.css';
@@ -14,13 +14,14 @@ function WebVid() {
                     <video playsInline='playsinline' autoPlay='autoplay' muted loop='loop' id='herovideo'>
                         <source src={video1} />
                     </video>
+
                     <div className="container">
                         <div className="vidContent">
                             <h1 className="text-left">
                                 WELCOME TO SPART
                             </h1>
                             <p className="text-left">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, beatae ducimus dolores distinctio itaque sapiente molestias laboriosam animi error excepturi omnis deserunt quas, iure adipisci ea blanditiis tenetur dicta eveniet?
+                                We are awsome website which do stuff with image .Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, beatae ducimus dolores distinctio itaque sapiente molestias laboriosam animi error excepturi omnis deserunt quas, iure adipisci ea blanditiis tenetur dicta eveniet?
                             </p>
                             <a href="" id='vidBtn'>Click Here</a>
                         </div>
