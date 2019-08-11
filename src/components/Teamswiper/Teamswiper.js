@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Card from '../common/Card';
-import './Teamswiper.css';
+import './Teamswiper.scss';
 import data from '../common/data';
 
 function Teamswiper() {
@@ -35,12 +35,14 @@ function Teamswiper() {
                 <button onClick={prevProfile}>Prev</button>
                 <button onClick={nextProfile}>Next</button>
             </div>
-            <div className="card-slider">
-                <div className="cards-slider-wrapper">
+            <div className={`card-slider active-slide-${selectCard.index}`}>
+                <div className="cards-slider-wrapper" style={{
+                    'transform': `translateX(-${selectCard.index * (100 / data.profiles.length)}%)`
+                }}>
                     {
                         data.profiles.map(profiles => <Card key={profiles.index} selectCard={profiles} />)
                     }
-                    <Card selectCard={selectCard} />
+
                 </div>
 
             </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css';
+import './Card.scss';
 import team1 from '../img/team-1.jpg';
 
 
@@ -20,7 +20,7 @@ const ProgressBar = (props) => {
 const Card = ({ selectCard }) => {
     const { index, name, job, image, skill1, skill2 } = selectCard;
     return (
-        <div className='team-mem'>
+        <div className='team-mem' id={`card-${index}`}>
             <div className="team-img">
                 <img src={image} alt="" />
                 <div className="teambox-centent">
