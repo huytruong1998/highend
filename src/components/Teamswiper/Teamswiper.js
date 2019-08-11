@@ -7,17 +7,25 @@ function Teamswiper() {
     const [selectCard, setCard] = useState(data.profiles[0]);
 
     const nextProfile = () => {
-        const newIndex = selectCard.index + 1;
+        let newIndex;
+        if (selectCard.index < (data.profiles.length - 1)) {
+            newIndex = selectCard.index + 1;
+        } else {
+            newIndex = 0;
+        }
         setCard(data.profiles[newIndex]);
-        console.log(newIndex);
 
     }
 
     const prevProfile = () => {
-        const newIndex = selectCard.index - 1;
-        setCard(data.profiles[newIndex]);
-        console.log(newIndex);
+        let newIndex;
+        if (selectCard.index === 0) {
+            newIndex = data.profiles.length - 1;
+        } else {
+            newIndex = selectCard.index - 1;
 
+        }
+        setCard(data.profiles[newIndex]);
     }
 
     return (
@@ -32,20 +40,31 @@ function Teamswiper() {
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi necessitatibus perferendis corrupti! Ut distinctio nostrum odit, perferendis, quibusdam, tempore explicabo qui neque id molestias earum alias! Nisi, adipisci quod!
                     </p>
                 </div>
-                <button onClick={prevProfile}>Prev</button>
-                <button onClick={nextProfile}>Next</button>
-            </div>
-            <div className={`card-slider active-slide-${selectCard.index}`}>
-                <div className="cards-slider-wrapper" style={{
-                    'transform': `translateX(-${selectCard.index * (100 / data.profiles.length)}%)`
-                }}>
-                    {
-                        data.profiles.map(profiles => <Card key={profiles.index} selectCard={profiles} />)
-                    }
 
+
+            </div>
+            <div className="team-member-section">
+                <div className="button-section">
+                    <button className='button-switch' onClick={nextProfile}><i class="fas fa-arrow-left"></i></button>
                 </div>
-
+                <div className="team-swiper-section">
+                    <div className={`card-slider active-slide-${selectCard.index}`}>
+                        <div className="cards-slider-wrapper" style={{
+                            'transform': `translateX(-${selectCard.index * (100 / data.profiles.length)}%)`
+                        }}>
+                            {
+                                data.profiles.map(profiles => <Card key={profiles.index} selectCard={profiles} />)
+                            }
+                        </div>
+                    </div>
+                </div>
+                <div className="button-section">
+                    <button className='button-switch' onClick={prevProfile}><i class="fas fa-arrow-right"></i></button>
+                </div>
             </div>
+
+
+
 
         </div>
     )

@@ -30,3 +30,38 @@ $i:0;
         transform: scale(1)
     }
 }
+
+.team-swiper-section {
+    width: 80%;
+    overflow: hidden;
+}
+
+.button-section {
+    width: 10%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    .button-switch {
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        padding: 3px;
+        border: 3px solid #B3B6B7;
+        color: #B3B6B7;
+        outline: none;
+
+        &:hover {
+            border: 3px solid #7B7D7D;
+            color: #7B7D7D;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.team-member-section {
+    display: flex;
+    height: 700px;
+}
