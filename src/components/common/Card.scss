@@ -11,7 +11,11 @@
 
 .teambox-centent {
     width: 100%;
+    position: relative;
+}
 
+.img-social {
+    overflow: hidden;
 }
 
 .team-social a {
@@ -40,15 +44,31 @@
     display: inline-block;
 }
 
-.teambox-centent {
-    position: relative;
+
+.img-social:hover ul.team-social {
+    top: -55px;
+    opacity: 1;
+    cursor: pointer;
 }
+
+.img-social:hover.img-social img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img-social img {
+    transition: 0.5s;
+}
+
+
 
 ul.team-social {
     background: #f1c30f;
     position: absolute;
     width: 100%;
-    top: -55px;
+    top: -10px;
+    opacity: 0;
+    transition: 0.5s cubic-bezier(0.1, 0.82, 0.165, 1);
 }
 
 .progress-bar {

@@ -4,9 +4,9 @@ import './Teamswiper.scss';
 import data from '../common/data';
 
 function Teamswiper() {
-    const [selectCard, setCard] = useState(data.profiles[0]);
+    const [selectCard, setCard] = useState(data.profiles[3]);
 
-    const nextProfile = () => {
+    const prevProfile = () => {
         let newIndex;
         if (selectCard.index < (data.profiles.length - 1)) {
             newIndex = selectCard.index + 1;
@@ -17,7 +17,7 @@ function Teamswiper() {
 
     }
 
-    const prevProfile = () => {
+    const nextProfile = () => {
         let newIndex;
         if (selectCard.index === 0) {
             newIndex = data.profiles.length - 1;
@@ -31,10 +31,10 @@ function Teamswiper() {
     return (
         <div id='team-swipe'>
             <div className="container">
-                <div className="row">
-                    <div className="col-md-12">
+                <div className="title-content row">
+                    <div className=" col-md-12">
                         <h5>A passionate team</h5>
-                        <h2>Awesome Leaders</h2>
+                        <h2>MEET THE TEAM</h2>
                     </div>
                     <p className="desc">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero modi necessitatibus perferendis corrupti! Ut distinctio nostrum odit, perferendis, quibusdam, tempore explicabo qui neque id molestias earum alias! Nisi, adipisci quod!
@@ -45,7 +45,7 @@ function Teamswiper() {
             </div>
             <div className="team-member-section">
                 <div className="button-section">
-                    <button className='button-switch' onClick={nextProfile}><i class="fas fa-arrow-left"></i></button>
+                    <button className='button-switch' onClick={nextProfile}><i className="fas fa-arrow-left"></i></button>
                 </div>
                 <div className="team-swiper-section">
                     <div className={`card-slider active-slide-${selectCard.index}`}>
@@ -59,7 +59,7 @@ function Teamswiper() {
                     </div>
                 </div>
                 <div className="button-section">
-                    <button className='button-switch' onClick={prevProfile}><i class="fas fa-arrow-right"></i></button>
+                    <button className='button-switch' onClick={prevProfile}><i className="fas fa-arrow-right"></i></button>
                 </div>
             </div>
 

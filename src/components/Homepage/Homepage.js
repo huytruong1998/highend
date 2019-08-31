@@ -6,6 +6,7 @@ import WebVid from './WebVid/WebVid';
 import Service from '../Service/Service';
 import Ourwork from '../Ourwork/Ourwork';
 import Teamswiper from '../Teamswiper/Teamswiper';
+import Pricing from '../Pricing/Pricing';
 
 function Homepage() {
     const [openHam, setHam] = useState(false)
@@ -31,19 +32,19 @@ function Homepage() {
                 <WebVid />
                 <nav className={"nav " + (addSticky === true ? 'sticky' : '')}>
                     <ul>
-                        <li><a href="">home</a></li>
-                        <li><a href="">features</a></li>
-                        <li><a href="">team</a></li>
-                        <li><a href="">work</a></li>
+                        <li><a href='javscript:void(0);'>home</a></li>
+                        <li><a href='javscript:void(0);'>features</a></li>
+                        <li><a href='javscript:void(0);'>team</a></li>
+                        <li><a href='javscript:void(0);'>work</a></li>
                         <li className='logo'>
-                            <a href="">
+                            <a href='javscript:void(0);'>
                                 <img src={logo} className='white' alt="" />
                                 <img src={logo} className='black' alt="" />
                             </a></li>
-                        <li><a href="">pricing</a></li>
-                        <li><a href="">client</a></li>
-                        <li><a href="">blog</a></li>
-                        <li><a href="">contact</a></li>
+                        <li><a href='javscript:void(0);'>pricing</a></li>
+                        <li><a href='javscript:void(0);'>client</a></li>
+                        <li><a href='javscript:void(0);'>blog</a></li>
+                        <li><a href='javscript:void(0);'>contact</a></li>
                     </ul>
                     <a className="nav-icon" onClick={() => setHam(true)} href='javscript:void(0);'>
                         <span></span>
@@ -55,48 +56,40 @@ function Homepage() {
             <div style={{ height: '500px' }}></div>
             <div className={"full-nav " + (openHam === true ? 'open' : '')} >
                 <div className="logo">
-                    <a href="">
+                    <a href='javscript:void(0);'>
                         <img src={logotwo} alt="" />
                     </a>
                 </div>
                 <nav className="nav2">
                     <ul>
-                        <li><a href=""><span>01.</span>Home</a></li>
-                        <li><a href=""><span>02.</span>Features</a></li>
-                        <li><a href=""><span>03.</span>Team</a></li>
-                        <li><a href=""><span>04.</span>Work</a></li>
-                        <li><a href=""><span>05.</span>Pricing</a></li>
-                        <li><a href=""><span>06.</span>Client</a></li>
-                        <li><a href=""><span>07.</span>Blog</a></li>
-                        <li><a href=""><span>08.</span>Contact</a></li>
+                        <li><a href='javscript:void(0);'><span>01.</span>Home</a></li>
+                        <li><a href='javscript:void(0);'><span>02.</span>Features</a></li>
+                        <li><a href='javscript:void(0);'><span>03.</span>Team</a></li>
+                        <li><a href='javscript:void(0);'><span>04.</span>Work</a></li>
+                        <li><a href='javscript:void(0);'><span>05.</span>Pricing</a></li>
+                        <li><a href='javscript:void(0);'><span>06.</span>Client</a></li>
+                        <li><a href='javscript:void(0);'><span>07.</span>Blog</a></li>
+                        <li><a href='javscript:void(0);'><span>08.</span>Contact</a></li>
                     </ul>
                 </nav>
                 <ul className="social-icons list-inline">
-                    <li><a href=""><i className="fab fa-facebook-f"></i></a></li>
-                    <li><a href=""><i className="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i className="fab fa-linkedin-in"></i></a></li>
-                    <li><a href=""><i className="fab fa-google-plus-g"></i></a></li>
-                    <li><a href=""><i className="fab fa-instagram"></i></a></li>
+                    <li><a href='javscript:void(0);'><i className="fab fa-facebook-f"></i></a></li>
+                    <li><a href='javscript:void(0);'><i className="fab fa-twitter"></i></a></li>
+                    <li><a href='javscript:void(0);'><i className="fab fa-linkedin-in"></i></a></li>
+                    <li><a href='javscript:void(0);'><i className="fab fa-google-plus-g"></i></a></li>
+                    <li><a href='javscript:void(0);'><i className="fab fa-instagram"></i></a></li>
                 </ul>
                 <div className="corner-circle">
                     <a href="javscript:void(0);" className='nav-close' onClick={() => setHam(false)}><span></span><span></span></a>
                 </div>
             </div>
             <Service />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
             <div className='line-break'>
             </div>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+
             <Ourwork />
             <Teamswiper />
+            <Pricing />
         </div>
 
     )
