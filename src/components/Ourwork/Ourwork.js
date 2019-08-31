@@ -6,8 +6,7 @@ import img3 from '../workimg/3.jpg';
 import img4 from '../workimg/4.jpg';
 import img5 from '../workimg/5.jpg';
 import img6 from '../workimg/6.jpg';
-import img7 from '../workimg/7.jpg';
-import img8 from '../workimg/8.jpg';
+
 
 function Ourwork() {
     return (

@@ -23,15 +23,15 @@ function WebVid() {
                             <p className="text-left">
                                 We are awsome website which do stuff with image .Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, beatae ducimus dolores distinctio itaque sapiente molestias laboriosam animi error excepturi omnis deserunt quas, iure adipisci ea blanditiis tenetur dicta eveniet?
                             </p>
-                            <a href="" id='vidBtn'>Click Here</a>
+                            <a href='javscript:void(0);' id='vidBtn'>Click Here</a>
                         </div>
                     </div>
                     <ul className="social-icons list-inline">
-                        <li><a href=""><i className='fab fa-facebook-f'></i></a></li>
-                        <li><a href=""><i className="fab fa-twitter"></i></a></li>
-                        <li><a href=""><i className="fab fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i className="fab fa-google-plus-g"></i></a></li>
-                        <li><a href=""><i className="fab fa-instagram"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className='fab fa-facebook-f'></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-twitter"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-google-plus-g"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </li>
@@ -48,15 +48,15 @@ function WebVid() {
                             <p className="text-left">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, beatae ducimus dolores distinctio itaque sapiente molestias laboriosam animi error excepturi omnis deserunt quas, iure adipisci ea blanditiis tenetur dicta eveniet?
                             </p>
-                            <a href="" id='vidBtn'>Click Here</a>
+                            <a href='javscript:void(0);' id='vidBtn'>Click Here</a>
                         </div>
                     </div>
                     <ul className="social-icons list-inline">
-                        <li><a href=""><i className='fab fa-facebook-f'></i></a></li>
-                        <li><a href=""><i className="fab fa-twitter"></i></a></li>
-                        <li><a href=""><i className="fab fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i className="fab fa-google-plus-g"></i></a></li>
-                        <li><a href=""><i className="fab fa-instagram"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className='fab fa-facebook-f'></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-twitter"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-google-plus-g"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </li>
@@ -74,15 +74,15 @@ function WebVid() {
                             <p className="text-left">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, beatae ducimus dolores distinctio itaque sapiente molestias laboriosam animi error excepturi omnis deserunt quas, iure adipisci ea blanditiis tenetur dicta eveniet?
                             </p>
-                            <a href="" id='vidBtn'>Click Here</a>
+                            <a href='javscript:void(0);' id='vidBtn'>Click Here</a>
                         </div>
                     </div>
                     <ul className="social-icons list-inline">
-                        <li><a href=""><i className='fab fa-facebook-f'></i></a></li>
-                        <li><a href=""><i className="fab fa-twitter"></i></a></li>
-                        <li><a href=""><i className="fab fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i className="fab fa-google-plus-g"></i></a></li>
-                        <li><a href=""><i className="fab fa-instagram"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className='fab fa-facebook-f'></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-twitter"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-google-plus-g"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </li>

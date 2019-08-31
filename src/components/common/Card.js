@@ -1,6 +1,6 @@
 import React from 'react';
-import './Card.css';
-import team1 from '../img/team-1.jpg';
+import './Card.scss';
+
 
 
 
@@ -20,20 +20,23 @@ const ProgressBar = (props) => {
 const Card = ({ selectCard }) => {
     const { index, name, job, image, skill1, skill2 } = selectCard;
     return (
-        <div className='team-mem'>
-            <div className="team-img">
+        <div className='team-mem' id={`card-${index}`}>
+            <div className="img-social">
                 <img src={image} alt="" />
                 <div className="teambox-centent">
                     <ul className='team-social'>
-                        <li><a href=""><i className='fab fa-facebook-f'></i></a></li>
-                        <li><a href=""><i className="fab fa-twitter"></i></a></li>
-                        <li><a href=""><i className="fab fa-linkedin-in"></i></a></li>
-                        <li><a href=""><i className="fab fa-google-plus-g"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className='fab fa-facebook-f'></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-twitter"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-linkedin-in"></i></a></li>
+                        <li><a href='javscript:void(0);'><i className="fab fa-google-plus-g"></i></a></li>
                     </ul>
                 </div>
+            </div>
+            <div className="team-img">
+
                 <div className="team-desc">
                     <div className="team-personal">
-                        <h2>{name}</h2>
+                        <h1>{name}</h1>
                         <p>{job}</p>
                     </div>
                     <div className="progress-display">
