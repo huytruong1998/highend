@@ -18,7 +18,7 @@
 
 .card-container {
     position: relative;
-    height: 24rem;
+    height: 26rem;
     width: 16rem;
     perspective: 200rem;
     margin: 0 auto;
@@ -39,7 +39,7 @@
 
 .card-holder {
     position: relative;
-    height: 24rem;
+    height: 26rem;
     width: 17rem;
     perspective: 200rem;
     margin: 0 auto;
@@ -104,6 +104,19 @@
         }
     }
 
+.price-button {
+    a {
+        padding: 10px 40px;
+        border-radius: 25px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+
+    }
+}
+    
+
     // // border-radius: 1rem;
     // h2 {
     //     text-transform: uppercase;
@@ -130,6 +143,7 @@
     //     font-size: 14px;
     // }
 }
+
 
 .card__side--front {
     background-image: linear-gradient(to right bottom, #fff, #fff);
@@ -174,10 +188,90 @@
 .card__background_3 {
     background: linear-gradient(to right bottom, #d66d75, #e29587);
 }
-.card__side--gray {
-    background-image: linear-gradient(105.8deg, #273746 11%, #566573 121.7%);
+
+
+.card__cta__top {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 15rem;
+    
+
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h3{
+        font-weight: bold;
+    }
+
+    .buy-button {
+
+        margin-top: 25px;
+        a {
+            padding: 10px 40px;
+            border-radius: 25px;
+            text-transform: uppercase;
+            text-decoration: none;
+            
+        }
+    }
+
+        .btn--animated {
+            animation: moveInBottom 0.4s ease-out .7s;
+            animation-fill-mode: backwards;
+        }
+
+        .btn--white {
+            background-color: #fff;
+            color: #777;
+        }
+
+        .btn,
+        .btn:link,
+        .btn:visited {
+            display: inline-block;
+            text-transform: uppercase;
+            text-decoration: none;
+            border-radius: 12rem;
+            transition: all 0.3s;
+            position: relative;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+
+        .btn:hover {
+            transform: translateY(-0.3rem);
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+            
+        }
+
+        .btn:hover::after {
+            transform: scaleX(1.2) scaleY(1.6);
+            opacity: 0;
+        }
+
+        .btn::after {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            display: inline-block;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            border-radius: 12rem;
+            /* transition: all 0.4s; */
+        }
+
+        .btn--white::after {
+            background-color: #fff;
+        }
+    
 }
 
-.card__side--back--orange {
-    background-image: linear-gradient(105.8deg, #E74C3C 11%, #BB3628 121.7%);
-}

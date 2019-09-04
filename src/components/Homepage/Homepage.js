@@ -7,6 +7,8 @@ import Service from '../Service/Service';
 import Ourwork from '../Ourwork/Ourwork';
 import Teamswiper from '../Teamswiper/Teamswiper';
 import Pricing from '../Pricing/Pricing';
+import Update from '../Update/Update';
+import Blog from '../Blog/Blog';
 
 function Homepage() {
     const [openHam, setHam] = useState(false)
@@ -89,7 +91,10 @@ function Homepage() {
 
             <Ourwork />
             <Teamswiper />
+            <Update />
+            <Blog />
             <Pricing />
+
         </div>
 
     )
