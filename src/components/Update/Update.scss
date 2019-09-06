@@ -1,0 +1,47 @@
+.services {
+    background-image: url('..//img/parallax4.jpg');
+    padding-top: 130px;
+    padding-bottom: 130px;
+    margin-bottom: 150px;
+    margin-top: 150px;
+    background-attachment: fixed;
+
+    h2 {
+        font-family: 'Oswald', sans-serif;
+        font-size: 2em;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+
+    }
+
+    p {
+        font-family: 'Oswald',
+            sans-serif;
+        font-size: 2em;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    a {
+        padding: 15px 30px;
+        background: transparent;
+        border-radius: 50px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'Oswald',
+            sans-serif;
+        color: white;
+        font-size: 13px;
+        transition: all 0.5s ease-in;
+        border: 2px solid white;
+
+    }
+
+    .btn:hover {
+        background: white;
+        color: black;
+    }
+}

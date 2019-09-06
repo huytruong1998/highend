@@ -26,20 +26,23 @@ function Pricing() {
 
                                 </ul>
                             </div>
-                            <div className="price -button">
-                                <a href="#">BUY NOW</a>
+                            <div className="price-button">
+                                <a className="card__background_1" href="#">BUY NOW</a>
                             </div>
 
                         </div>
                         <div className="card__side card__side--back card__background_1">
                             <div className="card__cta">
                                 <div className="card__cta__top">
-                                    <h4>
-                                        HiredGun Lucian
-                                        </h4>
-                                    <p>Only</p>
-                                    <div className="card__price">
-                                        <a href="#popup" className="btn btn--white btn--animated">1350 RP</a>
+                                    <h3>
+                                        Regular Package
+                                    </h3>
+
+                                    <h1>$15</h1>
+
+                                    <h6>Per Month</h6>
+                                    <div className="buy-button">
+                                        <a href="#popup" className="btn btn--white btn--animated">BUY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,20 +65,23 @@ function Pricing() {
 
                                 </ul>
                             </div>
-                            <div className="price -button">
-                                <a href="#">BUY NOW</a>
+                            <div className="price-button">
+                                <a className="card__background_2" href="#">BUY NOW</a>
                             </div>
 
                         </div>
                         <div className="card__side card__side--back card__background_2">
                             <div className="card__cta">
                                 <div className="card__cta__top">
-                                    <h4>
-                                        HiredGun Lucian
-                                        </h4>
-                                    <p>Only</p>
-                                    <div className="card__price">
-                                        <a href="#popup" className="btn btn--white btn--animated">1350 RP</a>
+                                    <h3>
+                                        Premium Package
+                                    </h3>
+
+                                    <h1>$40</h1>
+
+                                    <h6>Per Month</h6>
+                                    <div className="buy-button">
+                                        <a href="#popup" className="btn btn--white btn--animated">BUY NOW</a>
                                     </div>
                                 </div>
                             </div>
@@ -98,20 +104,23 @@ function Pricing() {
 
                                 </ul>
                             </div>
-                            <div className="price -button">
-                                <a href="#">BUY NOW</a>
+                            <div className="price-button">
+                                <a className="card__background_3" href="#">BUY NOW</a>
                             </div>
 
                         </div>
                         <div className="card__side card__side--back card__background_3">
                             <div className="card__cta">
                                 <div className="card__cta__top">
-                                    <h4>
-                                        HiredGun Lucian
-                                        </h4>
-                                    <p>Only</p>
-                                    <div className="card__price">
-                                        <a href="#popup" className="btn btn--white btn--animated">1350 RP</a>
+                                    <h3>
+                                        Ultimate Package
+                                    </h3>
+
+                                    <h1>$100</h1>
+
+                                    <h6>Per Month</h6>
+                                    <div className="buy-button">
+                                        <a href="#popup" className="btn btn--white btn--animated">BUY NOW</a>
                                     </div>
                                 </div>
                             </div>

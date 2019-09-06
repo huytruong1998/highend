@@ -1,5 +1,5 @@
 .title-content {
-    margin-bottom: 120px;
+    margin-bottom: 50px;
     margin-top: 50px;
 
     h2 {
@@ -10,15 +10,22 @@
 
 }
 
+#pricing-content {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
 .pricing-section-wrap {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    align-items: center;
+
 }
 
 .card-container {
     position: relative;
-    height: 24rem;
+    height: 26rem;
     width: 16rem;
     perspective: 200rem;
     margin: 0 auto;
@@ -39,7 +46,7 @@
 
 .card-holder {
     position: relative;
-    height: 24rem;
+    height: 26rem;
     width: 17rem;
     perspective: 200rem;
     margin: 0 auto;
@@ -57,17 +64,17 @@
     box-shadow: 0rem 0rem 6rem rgba(0, 0, 0, 0.2);
     border-radius: 20px;
     // color: #ECF0F1;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 
     .price-head {
         padding: 30px;
         background-size: cover;
         background-blend-mode: screen;
-        
+
         border-bottom-left-radius: 50%;
         border-bottom-right-radius: 50%;
 
-        h4{
+        h4 {
             text-transform: uppercase;
             margin: 0;
             padding: 0;
@@ -75,7 +82,7 @@
             font-weight: 700;
         }
 
-        h2{
+        h2 {
             margin: 0;
             padding: 5px 0 0;
             font-size: 36px;
@@ -84,15 +91,15 @@
         }
     }
 
-    .price-content{
+    .price-content {
         position: relative;
 
-        ul{
+        ul {
             position: relative;
             margin: 0;
             padding: 20px 20px;
 
-            li{
+            li {
                 list-style: none;
                 font-size: 16px;
                 text-transform: uppercase;
@@ -103,6 +110,19 @@
             }
         }
     }
+
+    .price-button {
+        a {
+            padding: 10px 40px;
+            border-radius: 25px;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+
+        }
+    }
+
 
     // // border-radius: 1rem;
     // h2 {
@@ -130,6 +150,7 @@
     //     font-size: 14px;
     // }
 }
+
 
 .card__side--front {
     background-image: linear-gradient(to right bottom, #fff, #fff);
@@ -162,22 +183,102 @@
         url(https://art-of-lol.com/wp-content/uploads/2016/06/Street-Band-Lucian-League-Of-Legends-Fan-Art.png);
 }
 
-.card__background_1{
-    background: linear-gradient(to right bottom, #36d1dc, #5b86e5);
+.card__background_1 {
+    background: linear-gradient(to right bottom, #ADD6D8, #ADD6D8);
 }
 
 
 .card__background_2 {
-    background: linear-gradient(to right bottom, #eacda3, #d6ae7b);
+    background: linear-gradient(to right bottom, #24D2D3, #24D2D3);
 }
 
 .card__background_3 {
-    background: linear-gradient(to right bottom, #d66d75, #e29587);
-}
-.card__side--gray {
-    background-image: linear-gradient(105.8deg, #273746 11%, #566573 121.7%);
+    background: linear-gradient(to right bottom, #141622, #141622);
 }
 
-.card__side--back--orange {
-    background-image: linear-gradient(105.8deg, #E74C3C 11%, #BB3628 121.7%);
+
+.card__cta__top {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 15rem;
+
+
+    h1 {
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-weight: bold;
+    }
+
+    .buy-button {
+
+        margin-top: 25px;
+
+        a {
+            padding: 10px 40px;
+            border-radius: 25px;
+            text-transform: uppercase;
+            text-decoration: none;
+
+        }
+    }
+
+    .btn--animated {
+        animation: moveInBottom 0.4s ease-out .7s;
+        animation-fill-mode: backwards;
+    }
+
+    .btn--white {
+        background-color: #fff;
+        color: #777;
+    }
+
+    .btn,
+    .btn:link,
+    .btn:visited {
+        display: inline-block;
+        text-transform: uppercase;
+        text-decoration: none;
+        border-radius: 12rem;
+        transition: all 0.3s;
+        position: relative;
+        border: none;
+        cursor: pointer;
+    }
+
+
+
+    .btn:hover {
+        transform: translateY(-0.3rem);
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+
+    }
+
+    .btn:hover::after {
+        transform: scaleX(1.2) scaleY(1.6);
+        opacity: 0;
+    }
+
+    .btn::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        display: inline-block;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        border-radius: 12rem;
+        /* transition: all 0.4s; */
+    }
+
+    .btn--white::after {
+        background-color: #fff;
+    }
+
 }
