@@ -283,3 +283,10 @@ ul.social-icons.list-inline {
     margin-bottom: 100px;
     margin-top: 100px;
 }
+
+@media only screen and (min-width:0px) and (max-width:959px) {
+
+    .nav-icon {
+        display: block;
+    }
+}

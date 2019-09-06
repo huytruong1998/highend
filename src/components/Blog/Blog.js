@@ -86,9 +86,9 @@ export default class Blog extends Component {
 
                             <div className="post-slide">
                                 <ul className="post-info">
-                                    <li><i className="fas fa-tag"></i> <a href="">php</a>  </li>
-                                    <li><i className="fas fa-calendar-minus"></i><a href="">July 22 2019</a></li>
-                                    <li><i className="fas fa-comment"></i><a href="">1</a> </li>
+                                    <li><i className="fas fa-tag"></i> <a href=""> php</a>  </li>
+                                    <li><i className="fas fa-calendar-minus"></i> <a href=""> July 22 2019</a></li>
+                                    <li><i className="fas fa-comment"></i> <a href=""> 1</a> </li>
                                 </ul>
 
                                 <div className="post-img">
