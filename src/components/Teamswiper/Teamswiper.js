@@ -6,6 +6,7 @@ import data from '../common/data';
 function Teamswiper() {
     const [selectCard, setCard] = useState(data.profiles[3]);
 
+
     const prevProfile = () => {
         let newIndex;
         if (selectCard.index < (data.profiles.length - 1)) {

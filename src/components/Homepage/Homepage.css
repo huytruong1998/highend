@@ -289,4 +289,12 @@ ul.social-icons.list-inline {
     .nav-icon {
         display: block;
     }
+
+    .nav ul li {
+        display: none;
+    }
+
+    .logo {
+        display: flex !important;
+    }
 }

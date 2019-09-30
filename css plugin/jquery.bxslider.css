@@ -220,3 +220,14 @@ ul.bxslider {
   font-size: .85em;
   padding: 10px;
 }
+
+@media only screen and (min-width:0px) and (max-width:959px) {
+
+  .bx-wrapper .bx-pager,
+  .bx-wrapper .bx-pager,
+  .bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: 150px;
+    width: 100%;
+  }
+}
