@@ -2,7 +2,10 @@ import React from 'react';
 import './Card.scss';
 
 
+const ProfileClick = () => {
+    console.log('hello');
 
+}
 
 const Filler = (props) => {
     return <div className="filler-bar" style={{ width: props.percentage + '%' }} />
@@ -21,7 +24,7 @@ const Card = ({ selectCard }) => {
     const { index, name, job, image, skill1, skill2 } = selectCard;
     return (
         <div className='team-mem' id={`card-${index}`}>
-            <div className="img-social">
+            <div className="img-social" onClick={ProfileClick}>
                 <img src={image} alt="" />
                 <div className="teambox-centent">
                     <ul className='team-social'>
