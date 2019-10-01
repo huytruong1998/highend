@@ -23,7 +23,10 @@ function WebVid() {
                             <p className="text-change">
                                 We are awsome website which do stuff with image .Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, beatae ducimus dolores distinctio itaque sapiente molestias laboriosam animi error excepturi omnis deserunt quas, iure adipisci ea blanditiis tenetur dicta eveniet?
                             </p>
-                            <a href='javscript:void(0);' id='vidBtn'>Click Here</a>
+                            <div className="buttonarea">
+                                <a href='javscript:void(0);' id='vidBtn'>Click Here</a>
+                            </div>
+
                         </div>
                     </div>
                     <ul className="social-icons list-inline">
@@ -48,7 +51,10 @@ function WebVid() {
                             <p className="text-change">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, beatae ducimus dolores distinctio itaque sapiente molestias laboriosam animi error excepturi omnis deserunt quas, iure adipisci ea blanditiis tenetur dicta eveniet?
                             </p>
-                            <a href='javscript:void(0);' id='vidBtn'>Click Here</a>
+                            <div className="buttonarea">
+                                <a href='javscript:void(0);' id='vidBtn'>Click Here</a>
+                            </div>
+
                         </div>
                     </div>
                     <ul className="social-icons list-inline">
@@ -74,7 +80,10 @@ function WebVid() {
                             <p className="ttext-change">
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, beatae ducimus dolores distinctio itaque sapiente molestias laboriosam animi error excepturi omnis deserunt quas, iure adipisci ea blanditiis tenetur dicta eveniet?
                             </p>
-                            <a href='javscript:void(0);' id='vidBtn'>Click Here</a>
+                            <div className="buttonarea">
+                                <a href='javscript:void(0);' id='vidBtn'>Click Here</a>
+                            </div>
+
                         </div>
                     </div>
                     <ul className="social-icons list-inline">
